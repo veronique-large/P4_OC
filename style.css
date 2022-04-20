@@ -674,7 +674,9 @@ a {
     margin: auto auto auto auto;
 }
 
-
+p{
+    font-size: 11px;
+}
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -766,9 +768,7 @@ h4 {
     background-color: #364577;
 }
 
-.bgc-atomic-tangerine {
-    background-color: #F3976C;
-}
+
 
 .tc-white {
     color: #F3976C!important;
