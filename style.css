@@ -93,7 +93,6 @@ a:hover {
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
-    filter: contrast(10.5);
     background-size: 280px 280px;
 }
 
@@ -675,9 +674,9 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
+/*p {
     font-size: 11px;
-}
+}*/
 
 .tight-width-whitespace {
     max-width: 600px;
