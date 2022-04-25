@@ -92,8 +92,8 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
+   background: url("img/texture-paper.png");
+   background-size: 280px 280px;
 }
 
 .b-parallax {
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -676,9 +676,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p{
-    font-size: 11px;
-}
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -710,7 +707,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 17px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -723,7 +720,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
@@ -774,12 +771,16 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FAEBD7;
+}
+.tc-white h1{
+    color:#FFFFA0;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    border: solid 2px #B87251;
     
 }
 
@@ -822,7 +823,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
