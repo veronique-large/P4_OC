@@ -582,6 +582,8 @@ a[data-lightbox]:hover img {
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
     margin: 0 auto;
+    height: 691px;
+    width: 868px;
 }
 
 .lightbox-caption {
@@ -746,6 +748,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    height: 270px;
+    width: 270px;
 }
 
 .portfolio-row {
@@ -831,7 +835,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
