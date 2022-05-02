@@ -1390,7 +1390,7 @@ html {
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.42857143;
     color: #333;
     background-color: #fff
@@ -1437,8 +1437,6 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto;
-    width: 100%;
 }
 
 .img-rounded {
@@ -7683,7 +7681,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #0000;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
