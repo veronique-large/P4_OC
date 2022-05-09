@@ -442,6 +442,13 @@ nav .caret {
     margin: 6px -5px 0 0!important;
     float: right;
 }
+.dropdown-menu>.disabled>a:focus,
+.dropdown-menu>.disabled>a:hover{
+    text-decoration: none;
+    cursor: not-allowed;
+    background-color: transparent;
+    background-image: none;
+}
 
 .mg-md {
     margin-top: 10px;
@@ -1052,6 +1059,6 @@ h4 {
 @media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
-        max-height: 200px;
+        max-height: 200px
     }
 }
