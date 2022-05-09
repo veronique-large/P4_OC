@@ -4279,17 +4279,7 @@ tbody.collapse.in {
 .dropdown-toggle:focus {
     outline: 0
 } 
-.caret {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    margin-left: 2px;
-    vertical-align: middle;
-    border-top: 4px dashed;
-    border-top: 4px transparent;
-    border-right: 4px solid transparent;
-    border-left: 4px solid transparent
-}
+
 .dropdown-menu {
     position: absolute;
     top: 100%;
