@@ -498,7 +498,7 @@ button {
 .panel-sq,
 .panel-sq .panel-heading,
 .panel-sq .panel-footer {
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 .panel-rd {
@@ -1047,5 +1047,11 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+@media (max-width:480px) and (orientation:landscape) {
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 200px;
     }
 }
